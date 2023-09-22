@@ -7,5 +7,7 @@ Selain fuzzy string search, terdapat beberapa metode pencocokan string lainnya y
 6. Phonetic Matching: Metode ini mencocokkan string berdasarkan suara mereka. Algoritma seperti Soundex dan Metaphone digunakan untuk mencocokkan kata berdasarkan pengucapan, bahkan jika ada perbedaan dalam ejaan.
 7. N-gram Matching: Metode ini membagi string menjadi bagian-bagian yang lebih kecil dan mencocokkan bagian-bagian ini. Ini berguna untuk menemukan kemiripan dalam urutan karakter dan dapat membantu dalam pencarian suku kata atau frasa yang serupa.
 8. Approximate String Matching: Metode ini mencari kesamaan antara string dengan memperhitungkan beberapa penyimpangan atau perbedaan. Metode seperti Hamming distance, Levenshtein distance, atau Jaro-Winkler distance digunakan dalam pencocokan string yang toleran terhadap perbedaan karakter atau kesalahan pengetikan.
+9. Fuzzy string search: proses mencari string atau teks yang mirip dengan sebuah string kunci (query), meskipun tidak persis sama. Tujuan fuzzy string search adalah untuk menemukan kemungkinan kecocokan yang relevan meskipun ada variasi, kesalahan pengetikan, atau perbedaan kecil lainnya dalam string yang dicari.
+
 
 Setiap metode pencocokan string ini memiliki kegunaan dan kebutuhan penggunaan yang berbeda. Pemilihan metode yang tepat akan bergantung pada jenis data, tingkat kesalahan yang dapat diterima, dan sifat pencocokan yang diinginkan.
